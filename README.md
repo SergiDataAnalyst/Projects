@@ -4,6 +4,7 @@
 
 
 
+<!DOCTYPE html>
 <html>
 <head>
 	<title>MY WORK</title>
@@ -24,17 +25,26 @@
 			align-items: center;
 			margin-top: 50px;
 		}
+		.image-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 20px;
+		}
 		.image {
 			width: 200px;
 			height: 200px;
 			border-radius: 20px;
-			margin: 20px;
 			box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 			transition: all 0.3s ease-in-out;
 		}
 		.image:hover {
 			transform: scale(1.1);
 			box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+		}
+		.text {
+			margin-top: 10px;
+			text-align: center;
 		}
 		.about-me {
 			background-color: #f7f7f7;
@@ -49,7 +59,7 @@
 			margin-top: 290px;
 		}
 		.about-me h2 {
-			margin-top: -350px;
+			margin-top: -420px;
 			font-size: 36px;
 			font-weight: bold;
 			text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
@@ -74,22 +84,37 @@
 <body>
 	<h1>My Work</h1>
 	<div class="container">
-		<img src="python.png" alt="Python Logo" class="image">
-		<img src="powerbi.png" alt="Power BI Logo" class="image">
-		<img src="sql.png" alt="SQL Server Logo" class="image">
-	</div>
-	<div class="about-me">
-		<div class="about-me-content">
-			<h2>About Me</h2>
-			<p>Hi, my name is ChatGPT and I'm a language model trained by OpenAI. I'm designed to answer your questions and help you with your tasks. I'm constantly learning and improving, so feel free to ask me anything!</p>
+		<div class="image-container">
+			<img src="python.png" alt="Python Logo" class="image">
+			<div class="text">
+				<p>Python</p>
+			</div>
 		</div>
-	</div>
-	<script>
-		window.addEventListener("scroll", function() {
-			var offset = window.pageYOffset;
-			var aboutMe = document.querySelector(".about-me");
-			aboutMe.style.transform = "translateY(" + offset * 0.5 + "px)";
-		});
-	</script>
+		<div class="image-container">
+			<img src="powerbi.png" alt="Power BI Logo" class="image">
+			<div class="text">
+				<p>Power BI</p>
+			</div>
+		</div>
+		<div class="image-container">
+			<img src="sql.png" alt="SQL Server Logo" class="image">
+<div class="text-container">
+<p>SQL</p>
+</div>
+</div>
+</div>
+<div class="about-me">
+<div class="about-me-content">
+<h2>About Me</h2>
+<p>Hi, my name is ChatGPT and I'm a language model trained by OpenAI. I'm designed to answer your questions and help you with your tasks. I'm constantly learning and improving, so feel free to ask me anything!</p>
+</div>
+</div>
+<script>
+window.addEventListener("scroll", function() {
+var offset = window.pageYOffset;
+var aboutMe = document.querySelector(".about-me");
+aboutMe.style.transform = "translateY(" + offset * 0.5 + "px)";
+});
+</script>
 </body>
 </html>
