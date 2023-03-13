@@ -4,14 +4,11 @@
 <head>
 	<title>MY WORK 🚀</title>
 	<style>
-		
-
-
-                body {
-			background-color:  #f2fffd ;
+		body {
+			background-color: #f7f7f7;
 			margin: 0;
 			padding: 0;
-			font-family: Segoe Bold, Arial, sans-serif;
+			font-family: Arial, sans-serif;
 		}
 		h1 {
 			text-align: center;
@@ -47,21 +44,15 @@
 			text-align: center;
 			font-size: 24px;
 			font-family: Segoe Bold, Arial, sans-serif;
-		        font-weight: bold;
-}
 		
 		}
-
-                 /* ABOUT ME */
 		.about-me {
-			background-color:   #dffffd  ;
+			background-color: #f7f7f7;
 			height: 500px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-
-                       /* TEXT */
-			color:  #404040 ;
+			color: #333333;
 			font-size: 24px;
 			text-align: center;
 			position: relative;
@@ -88,7 +79,6 @@
 			z-index: -1;
 			transform: translateZ(-1px) scale(2);
 		}
-
 	</style>
 </head>
 <body>
