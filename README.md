@@ -9,13 +9,10 @@
         background-color: #ffffff;
       }
       
-      /* Center the images and text */
-      .container {
+      /* Center the images */
+      .image-container {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        height: 100vh;
       }
 
       /* Add margin between images */
@@ -49,32 +46,20 @@
         border: 3px solid #f5f5f5;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
       }
-      
-      /* Style the text */
-      .portfolio-text {
-        font-size: 48px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 20px;
-        text-shadow: 2px 2px #f5f5f5;
-      }
     </style>
   </head>
   <body>
     <!-- Display images aligned horizontally on center -->
-    <div class="container">
-      <h1 class="portfolio-text">My Portfolio</h1>
-      <div class="image-container">
-        <a href="https://www.python.org/" target="_blank">
-          <img src="python.png" alt="Python" width="150">
-        </a>
-        <a href="https://powerbi.microsoft.com/" target="_blank">
-          <img src="powerbi.png" alt="Power BI" width="150">
-        </a>
-        <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-          <img src="sql.png" alt="SQL Server" width="150">
-        </a>
-      </div>
+    <div class="image-container">
+      <a href="https://www.python.org/" target="_blank">
+        <img src="python.png" alt="Python" width="150">
+      </a>
+      <a href="https://powerbi.microsoft.com/" target="_blank">
+        <img src="powerbi.png" alt="Power BI" width="150">
+      </a>
+      <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
+        <img src="sql.png" alt="SQL Server" width="150">
+      </a>
     </div>
   </body>
 </html>
