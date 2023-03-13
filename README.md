@@ -30,6 +30,8 @@
         cursor: pointer;
         opacity: 0.7; /* Add opacity effect */
         transition: all 0.3s ease-in-out;
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
       }
       
       /* Make images responsive */
