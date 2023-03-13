@@ -46,16 +46,12 @@
         border: 3px solid #f5f5f5;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
       }
-      
-      /* Add text below first image */
-      #changed {
+
+      /* Style the text elements */
+      .image-container p {
         margin-top: 20px;
+        font-family: Segoe Bold, Arial, sans-serif;
         text-align: center;
-      }
-      
-      /* Add margin between images and text */
-      .image-container img:not(:first-child) {
-        margin-left: 20px;
       }
     </style>
   </head>
@@ -66,17 +62,34 @@
         <a href="https://www.python.org/" target="_blank">
           <img src="python.png" alt="Python" width="150">
         </a>
-        <p id="changed">Changed</p>
+        <p>changed</p>
       </div>
-      <a href="https://powerbi.microsoft.com/" target="_blank">
-        <img src="powerbi.png" alt="Power BI" width="150">
-      </a>
-      <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-        <img src="sql.png" alt="SQL Server" width="150">
-      </a>
+      <div>
+        <a href="https://powerbi.microsoft.com/" target="_blank">
+          <img src="powerbi.png" alt="Power BI" width="150">
+        </a>
+        <p>changed</p>
+      </div>
+      <div>
+        <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
+          <img src="sql.png" alt="SQL Server" width="150">
+        </a>
+        <p>changed</p>
+      </div>
+      <div>
+        <a href="https://www.r-project.org/" target="_blank">
+          <img src="r.png" alt="R" width="150">
+        </a>
+        <p>changed</p>
+      </div>
+      <div>
+        <a href="https://www.oracle.com/database/" target="_blank">
+          <img src="oracle.png" alt="Oracle Database" width="150">
+        </a>
+        <p>changed</p>
+      </div>
     </div>
   </body>
 </html>
-
 
 
