@@ -78,6 +78,17 @@
 			z-index: -1;
 			transform: translateZ(-1px) scale(2);
 		}
+		
+			@media only screen and (max-width: 768px) {
+				h1 {
+					font-size: 2em;
+				}
+		}
+	
+		
+		
+		
+		
 	</style>
 </head>
 <body>
