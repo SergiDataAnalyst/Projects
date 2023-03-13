@@ -27,6 +27,11 @@
 			flex-direction: column;
 			align-items: center;
 			margin: 20px;
+		/* Add padding between images */
+      		.image-container img {
+        		padding: 10px;
+      		}
+		
 		}
 		.image {
 			width: 150px; /* changed width from 200px to 150px */
