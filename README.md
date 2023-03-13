@@ -14,13 +14,13 @@ This creates the need of precise coupling between generation and demand. For the
   <body>
     <div style="background-color: white; display: flex;">
       <a href="https://example.com/page1">
-        <img src="image1.png" alt="Image 1" style="width: 200px; height: 200px; margin: 10px;">
+        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Image 1" style="width: 200px; height: 200px; margin: 10px;">
       </a>
       <a href="https://example.com/page2">
-        <img src="image2.png" alt="Image 2" style="width: 200px; height: 200px; margin: 10px;">
+        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Image 2" style="width: 200px; height: 200px; margin: 10px;">
       </a>
       <a href="https://example.com/page3">
-        <img src="image3.png" alt="Image 3" style="width: 200px; height: 200px; margin: 10px;">
+        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Image 3" style="width: 200px; height: 200px; margin: 10px;">
       </a>
     </div>
   </body>
