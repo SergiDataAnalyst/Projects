@@ -63,3 +63,7 @@
     </div>
   </body>
 </html>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/milling.jpg" alt="Sublime's custom image"/>
+</p>
