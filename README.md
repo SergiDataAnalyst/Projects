@@ -44,13 +44,13 @@
     <!-- Display images aligned horizontally on center -->
     <div class="image-container">
       <a href="https://www.python.org/" target="_blank">
-        <img src="python.png" alt="Python">
+        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="Python">
       </a>
       <a href="https://powerbi.microsoft.com/" target="_blank">
-        <img src="powerbi.png" alt="Power BI">
+        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="Power BI">
       </a>
       <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-        <img src="sql.png" alt="SQL Server">
+        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="SQL Server">
       </a>
     </div>
   </body>
