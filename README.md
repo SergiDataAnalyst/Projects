@@ -15,7 +15,12 @@
         display: flex;
         justify-content: center;
       }
-      
+
+      /* Add margin between images */
+      .image-container img:not(:last-child) {
+        margin-right: 20px;
+      }
+
       /* Add padding between images */
       .image-container img {
         padding: 10px;
@@ -56,4 +61,4 @@
       </a>
     </div>
   </body>
-</html>
+</html> 
