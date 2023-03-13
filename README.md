@@ -1,6 +1,5 @@
 # Projects
 
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -94,14 +93,5 @@
         <a href="https://my-sql-portfolio.com" class="button">Go to portfolio</a>
       </div>
     </div>
-    <script src="particles.min.js"></script>
-<script>
-  particlesJS.load('particles-js', 'particles.json', function() {
-    console.log('particles.js loaded');
-  });
-</script>
   </body>
-  
-  
-  
 </html
