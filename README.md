@@ -83,39 +83,45 @@
 	<h1>My Work</h1>
 	<div class="container">
 		<div class="image-container">
-			<img src="python.png" alt="Python Logo" class="image">
-			<div class="text">
-				<p>Python</p>
-			</div>
+			<a href="https://www.python.org/" target="_blank">
+				<img src="python.png" alt="Python Logo" class="image">
+				<div class="text">
+					<p>Python</p>
+				</div>
+			</a>
 		</div>
 		<div class="image-container">
-			<img src="powerbi.png" alt="Power BI Logo" class="image">
-			<div class="text">
-				<p>Power BI</p>
-			</div>
+			<a href="https://powerbi.microsoft.com/" target="_blank">
+				<img src="powerbi.png" alt="Power BI Logo" class="image">
+				<div class="text">
+					<p>Power BI</p>
+				</div>
+			</a>
 		</div>
 		<div class="image-container">
-			<img src="sql.png" alt="SQL Server Logo" class="image">
-			<div class="text-container">
-				<p>SQL</p> 
-</div>
+			<a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
+				<img src="sql.png" alt="SQL Server Logo" class="image">
+				<div class="text-container">
+					<p>SQL</p> 
+				</div>
+			</a>
 		</div>
 	</div>
 	<div class="about-me">
 		<div class="about-me-content">
 			<h2>About Me</h2>
 			<p>I'm the super-powered engineer with an insatiable appetite for knowledge and a knack for analyzing data like nobody's business. Currently, I'm studying the Master of Science in Artificial Intelligence because I heard that robots are coming for our jobs, and I want to be the one pulling the strings.
-</p>
-<p>
-When I'm not busy coding, you can find me soaring through the skies like a majestic eagle with my trusty paraglider, or hiking up mountains like a modern-day Sherpa. So, you can say that I'm both a computer whiz and a mountain wizard.
-</p>
-<p>
+			</p>
+			<p>
+			When I'm not busy coding, you can find me soaring through the skies like a majestic eagle with my trusty paraglider, or hiking up mountains like a modern-day Sherpa. So, you can say that I'm both a computer whiz and a mountain wizard.
+			</p>
+			<p>
 
-I've worked with small businesses before, analyzing their data and building custom business analysis reports to help them make sense of their operations. I love being able to take complicated data and turning it into something that everyone can understand. Think of me as the data whisperer, taming the wildest spreadsheets with just a few clicks.
-</p>
-<p>
-In short, I'm a mad scientist with a passion for AI and a love for the great outdoors. If you're looking for someone to help you make sense of your data and have a laugh along the way, look no further. I'm your guy!
-</p>
+			I've worked with small businesses before, analyzing their data and building custom business analysis reports to help them make sense of their operations. I love being able to take complicated data and turning it into something that everyone can understand. Think of me as the data whisperer, taming the wildest spreadsheets with just a few clicks.
+			</p>
+			<p>
+			In short, I'm a mad scientist with a passion for AI and a love for the great outdoors. If you're looking for someone to help you make sense of your data and have a laugh along the way, look no further. I'm your guy!
+			</p>
 		</div>
 	</div>
 	<script>
@@ -127,4 +133,3 @@ In short, I'm a mad scientist with a passion for AI and a love for the great out
 	</script>
 </body>
 </html>
-
