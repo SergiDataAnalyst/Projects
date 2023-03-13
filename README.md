@@ -97,7 +97,7 @@
 		</div>
 		<div class="image-container">
 			<img src="sql.png" alt="SQL Server Logo" class="image" onclick="window.location.href='https://count.co/report/mx3pf4bIZcu?frame=nX1StErbcFe'">
-			<div class="text-container">
+			<div class="text">
 				<p>SQL</p> 
 </div>
 		</div>
