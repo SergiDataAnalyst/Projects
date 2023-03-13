@@ -32,7 +32,7 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         overflow: hidden;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; 
       }
       .card:hover {
         transform: translateY(-5px);
