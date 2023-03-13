@@ -13,7 +13,7 @@
         max-width: 800px;
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         height: 100vh;
