@@ -1,8 +1,6 @@
 # Projects
 
-  
-  
-  
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,7 +14,7 @@
         max-width: 800px;
         margin: 0 auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
@@ -51,12 +49,6 @@
         margin: 20px;
         color: #303030;
       }
-      .card p {
-        font-size: 16px;
-        text-align: center;
-        margin-bottom: 10px;
-        color: #606060;
-      }
       .button {
         display: block;
         width: 100%;
@@ -72,30 +64,17 @@
         background-color: #3e8e41;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
-      .card-text {
-        margin-top: 20px;
-        text-align: center;
-        font-size: 20px;
-        color: #606060;
-      }
-      .card-text span {
-        font-weight: bold;
-      }
-      .icon-text {
-        text-align: center;
-        font-size: 28px;
-        margin-bottom: 20px;
-      }
     </style>
   </head>
   <body>
     <div class="container">
+      <h1>My Portfolios</h1>
       <div class="card">
         <a href="https://my-python-portfolio.com">
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Python Portfolio">
         </a>
-        <h2 class="icon-text">Python</h2>
-        <p class="card-text">Explore my Python portfolio</p>
+        <h2>Python</h2>
+        <p>Explore my Python portfolio</p>
         <a href="https://my-python-portfolio.com" class="button">Go to portfolio</a>
       </div>
       <div class="card">
@@ -103,7 +82,7 @@
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Power BI Portfolio">
         </a>
         <h2>Power BI</h2>
-        <p class="card-text">Explore my Power BI portfolio</p>
+        <p>Explore my Power BI portfolio</p>
         <a href="https://my-powerbi-portfolio.com" class="button">Go to portfolio</a>
       </div>
       <div class="card">
@@ -111,13 +90,9 @@
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="SQL Portfolio">
         </a>
         <h2>SQL</h2>
-        <p class="card-text">Explore my SQL portfolio</p>
+        <p>Explore my SQL portfolio</p>
         <a href="https://my-sql-portfolio.com" class="button">Go to portfolio</a>
       </div>
     </div>
   </body>
-</html>
-
-
-
-
+</html
