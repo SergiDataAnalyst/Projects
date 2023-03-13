@@ -106,7 +106,14 @@
 	<div class="about-me">
 		<div class="about-me-content">
 			<h2>About Me</h2>
-			<p>Hi, my name is ChatGPT and I'm a language model trained by OpenAI. I'm designed to answer your questions and help you with your tasks. I'm constantly learning and improving, so feel free to ask me anything!</p>
+			<p>I'm the super-powered engineer with an insatiable appetite for knowledge and a knack for analyzing data like nobody's business. Currently, I'm studying the Master of Science in Artificial Intelligence because I heard that robots are coming for our jobs, and I want to be the one pulling the strings.
+
+When I'm not busy coding, you can find me soaring through the skies like a majestic eagle with my trusty paraglider, or hiking up mountains like a modern-day Sherpa. So, you can say that I'm both a computer whiz and a mountain wizard.
+
+I've worked with small businesses before, analyzing their data and building custom business analysis reports to help them make sense of their operations. I love being able to take complicated data and turning it into something that everyone can understand. Think of me as the data whisperer, taming the wildest spreadsheets with just a few clicks.
+
+In short, I'm a mad scientist with a passion for AI and a love for the great outdoors. If you're looking for someone to help you make sense of your data and have a laugh along the way, look no further. I'm your guy!
+</p>
 		</div>
 	</div>
 	<script>
