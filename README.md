@@ -8,7 +8,7 @@
 
 
                 body {
-			background-color:  #ffbf8f ;
+			background-color:  #dffffd ;
 			margin: 0;
 			padding: 0;
 			font-family: Arial, sans-serif;
@@ -52,7 +52,7 @@
 
                  /* ABOUT ME */
 		.about-me {
-			background-color:   #ffeebf  ;
+			background-color:   #dffffd  ;
 			height: 500px;
 			display: flex;
 			justify-content: center;
@@ -82,19 +82,10 @@
 			left: 0;
 			height: 100%;
 			width: 100%;
-			background-color: rgba(122,23,3,0.1);
+			background-color: rgba(0,0,0,0.1);
 			z-index: -1;
 			transform: translateZ(-1px) scale(2);
 		}
-
-		@media only screen and (max-width: 768px) {
-			h1 {
-				font-size: 2em;
-			}
-		}
-	
-
-
 
 	</style>
 </head>
