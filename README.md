@@ -51,8 +51,7 @@
       .image-container p {
         margin-top: 20px;
         font-family: Segoe Bold, Arial, sans-serif;
-        text-align: center
-        font-size: 20px;
+        text-align: center;
       }
     </style>
   </head>
@@ -80,5 +79,3 @@
     </div>
   </body>
 </html>
-
-
