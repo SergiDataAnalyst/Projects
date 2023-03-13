@@ -78,9 +78,9 @@
 			z-index: -1;
 			transform: translateZ(-1px) scale(2);
 		}
-		</style>
-	</head>
-	<body>
+	</style>
+</head>
+<body>
 	<h1>My Work 🚀</h1>
 	<div class="container">
 		<div class="image-container">
@@ -99,15 +99,25 @@
 			<img src="sql.png" alt="SQL Server Logo" class="image" onclick="window.location.href='https://count.co/report/mx3pf4bIZcu?frame=nX1StErbcFe'">
 			<div class="text">
 				<p>SQL</p> 
-			</div>
+</div>
 		</div>
 	</div>
 	<div class="about-me">
 		<div class="about-me-content">
 			<h2>About Me 🙋🏻‍♂️</h2>
-			<p>Hello, my name is [Your Name] and I'm a data analyst based in [Your Location].</p>
-			<p>I have experience working with Python, Power BI, SQL, and other data analysis tools to extract insights from complex datasets and drive business decisions.</p>
-			<p>Feel free to contact me at [Your Email Address] to learn more about my work and how I can help your organization.</p>
+			<p>I am an engineer with a hungry appetite for knowledge and a knack for analyzing data. Currently, I'm studying a Master of Science in Artificial Intelligence because I heard that robots are coming for our jobs, and I want to be the one pulling the strings.
+</p>
+<p>
+When I'm not busy programming or Deutsch lernen, you can find me on my paraglider soaring the skies, or hiking up mountains like a modern-day Sherpa. So, you can say that I'm both a computer whiz and a mountain wizard.
+</p>
+<p>
+
+I've worked with small businesses before, analyzing their data and building custom business analysis reports to help them make sense of their operations. I love being able to take complicated data and turning it into something that everyone can understand. Think of me as the data whisperer, taming the wildest spreadsheets with just a few clicks.
+</p>
+<p>
+In short, I'm a mad scientist with a passion for AI and Data Analytics a love for the great outdoors. If you're looking for someone to help you make sense of your data, look no further. I'm your guy!
+</p>
+			
 		</div>
 	</div>
 	<script>
@@ -119,4 +129,3 @@
 	</script>
 </body>
 </html>
-
