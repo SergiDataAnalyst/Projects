@@ -55,10 +55,10 @@
 			font-size: 24px;
 			text-align: center;
 			position: relative;
-			margin-top: 290px;
+			margin-top: 370px;
 		}
 		.about-me h2 {
-			margin-top: -420px;
+			margin-top: -320px;
 			font-size: 36px;
 			font-weight: bold;
 			text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
