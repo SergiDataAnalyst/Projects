@@ -1,5 +1,6 @@
 # Projects
 
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -13,7 +14,7 @@
         max-width: 800px;
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         height: 100vh;
@@ -48,6 +49,12 @@
         margin: 20px;
         color: #303030;
       }
+      .card p {
+        font-size: 18px;
+        text-align: center;
+        margin: 10px;
+        color: #707070;
+      }
       .button {
         display: block;
         width: 100%;
@@ -67,7 +74,6 @@
   </head>
   <body>
     <div class="container">
-      <h1>My Portfolios</h1>
       <div class="card">
         <a href="https://my-python-portfolio.com">
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Python Portfolio">
@@ -88,10 +94,11 @@
         <a href="https://my-sql-portfolio.com">
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="SQL Portfolio">
         </a>
-        <h2>SQL</h2>
-        <p>Explore my SQL portfolio</p>
+      <h2>SQL</h2>
+      <p>Explore my SQL portfolio</p>
         <a href="https://my-sql-portfolio.com" class="button">Go to portfolio</a>
-      </div>
+       </div>
     </div>
   </body>
-</html
+</html>
+
