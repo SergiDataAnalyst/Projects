@@ -1,5 +1,7 @@
 
 ##           Projects
+<p style="text-align:center;">PROJECTS</p>
+
 
 
 <html>
