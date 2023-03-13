@@ -1,4 +1,3 @@
-# Projects
 
 <html>
   <head>
@@ -65,13 +64,13 @@
         <p>Python</p>
       </div>
       <div>
-        <a href="https://powerbi.microsoft.com/" target="_blank">
+        <a href="https://sergidataanalyst.github.io/PowerBI/" target="_blank">
           <img src="powerbi.png" alt="Power BI" width="150">
         </a>
         <p>Power BI</p>
       </div>
       <div>
-        <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
+        <a href="https://count.co/report/mx3pf4bIZcu?frame=nX1StErbcFe" target="_blank">
           <img src="sql.png" alt="SQL Server" width="150">
         </a>
         <p>SQL</p>
