@@ -47,6 +47,8 @@
 			text-align: center;
 			font-size: 24px;
 			font-family: Segoe Bold, Arial, sans-serif;
+		        font-weight: bold;
+}
 		
 		}
 
