@@ -1,10 +1,14 @@
 
+<!DOCTYPE html>
 <html>
 <head>
 	<title>MY WORK 🚀</title>
 	<style>
-		body {
-			background-color: #f7f7f7;
+		
+
+
+                body {
+			background-color:  #ffbf8f ;
 			margin: 0;
 			padding: 0;
 			font-family: Arial, sans-serif;
@@ -45,13 +49,17 @@
 			font-family: Segoe Bold, Arial, sans-serif;
 		
 		}
+
+                 /* ABOUT ME */
 		.about-me {
-			background-color: #f7f7f7;
+			background-color:   #ffeebf  ;
 			height: 500px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: #333333;
+
+                       /* TEXT */
+			color:  #404040 ;
 			font-size: 24px;
 			text-align: center;
 			position: relative;
@@ -74,10 +82,20 @@
 			left: 0;
 			height: 100%;
 			width: 100%;
-			background-color: rgba(0,0,0,0.1);
+			background-color: rgba(122,23,3,0.1);
 			z-index: -1;
 			transform: translateZ(-1px) scale(2);
 		}
+
+		@media only screen and (max-width: 768px) {
+			h1 {
+				font-size: 2em;
+			}
+		}
+	
+
+
+
 	</style>
 </head>
 <body>
