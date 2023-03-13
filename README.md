@@ -11,52 +11,6 @@
       body {
         background-color: #ffffff;
       }
-
-      /* Set up background effect */
-      .background-effect {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background-image: linear-gradient(to right, #000000, #434343);
-      }
-      .background-effect::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 20px;
-        height: 20px;
-        background-image: radial-gradient(#e1e1e1 50%, transparent 0);
-        background-position: 0 0;
-        background-repeat: repeat;
-        transform: scale(15);
-        z-index: -1;
-      }
-      .background-effect::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 20px;
-        height: 20px;
-        background-image: radial-gradient(#000000 50%, transparent 0);
-        background-position: 0 0;
-        background-repeat: repeat;
-        transform: scale(15);
-        z-index: -1;
-        animation: animate 10s linear infinite;
-      }
-      @keyframes animate {
-        from {
-          transform: translate(-100px, -100px) scale(15);
-        }
-        to {
-          transform: translate(200px, 200px) scale(15);
-        }
-      }
       
       /* Center the images */
       .image-container {
@@ -106,12 +60,13 @@
   </head>
   <body>
     <!-- Display images aligned horizontally on center -->
-    <div class="background-effect"></div>
     <div class="image-container">
       <div>
         <a href="https://sergidataanalyst.github.io/" target="_blank">
           <img src="python.png" alt="Python" width="150">
-          </div>
+        </a>
+        <p>Python</p>
+      </div>
       <div>
         <a href="https://sergidataanalyst.github.io/PowerBI/" target="_blank">
           <img src="powerbi.png" alt="Power BI" width="150">
@@ -126,22 +81,4 @@
       </div>
     </div>
   </body>
-  <script>
-    // Interactive background effect
-    document.addEventListener("mousemove", function(e) {
-      const body = document.querySelector("body");
-      const centerX = window.innerWidth / 2;
-      const centerY = window.innerHeight / 2;
-      const deltaX = e.clientX - centerX;
-      const deltaY = e.clientY - centerY;
-      const percentX = deltaX / centerX;
-      const percentY = deltaY / centerY;
-      const deg = 10;
-      const offsetX = percentX * deg;
-      const offsetY = percentY * deg;
-      body.style.backgroundPositionX = `${offsetX}px`;
-      body.style.backgroundPositionY = `${offsetY}px`;
-    });
-  </script>
 </html>
-       
