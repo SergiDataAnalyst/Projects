@@ -8,8 +8,8 @@
 			background-color: #f7f7f7;
 			margin: 0;
 			padding: 0;
-			font-family: Segoe Bold, Arial, sans-serif;
-                        font-weight: bold;
+			font-family: Segoe, Arial, sans-serif;
+                        
 		}
 		h1 {
 			text-align: center;
