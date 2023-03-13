@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Images and About Me Page</title>
+	<title>MY WORK</title>
 	<style>
 		body {
 			background-color: #f9f9f9;
@@ -25,17 +25,17 @@
 			margin-top: 50px;
 		}
 		.image {
-			width: 150px;
-			height: 150px;
-			border-radius: 50%;
+			width: 200px;
+			height: 200px;
+			border-radius: 20px;
 			margin: 20px;
 			transition: all 0.3s ease-in-out;
 		}
 		.image:hover {
-			transform: scale(1.1);
+			transform: scale(1.3);
 		}
 		.about-me {
-			background-image: url('https://images.unsplash.com/photo-1633079296214-d8d7e51c0894');
+			background-image: url('https://i.imgur.com/NVxzds2.png');
 			background-size: cover;
 			background-position: center;
 			height: 500px;
@@ -46,6 +46,12 @@
 			font-size: 24px;
 			text-align: center;
 			position: relative;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			margin-top: 50px;
 		}
 		.about-me h2 {
 			margin-top: 0;
@@ -87,9 +93,8 @@
 		window.addEventListener("scroll", function() {
 			var offset = window.pageYOffset;
 			var aboutMe = document.querySelector(".about-me");
-			aboutMe.style.backgroundPositionY = offset * 0.7 + "px";
+			aboutMe.style.backgroundPositionY = offset * 0.5 + "px";
 		});
 	</script>
 </body>
 </html>
-
