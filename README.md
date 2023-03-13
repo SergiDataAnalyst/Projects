@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>MY WORK 🚀</title>
@@ -11,7 +11,7 @@
 			background-color:  #f2fffd ;
 			margin: 0;
 			padding: 0;
-			font-family: Arial, sans-serif;
+			font-family: Segoe Bold, Arial, sans-serif;
 		}
 		h1 {
 			text-align: center;
