@@ -4,7 +4,7 @@
 
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>MY WORK</title>
@@ -32,8 +32,8 @@
 			margin: 20px;
 		}
 		.image {
-			width: 200px;
-			height: 200px;
+			width: 150px; /* changed width from 200px to 150px */
+			height: 150px; /* changed height from 200px to 150px */
 			border-radius: 20px;
 			box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 			transition: all 0.3s ease-in-out;
@@ -98,23 +98,23 @@
 		</div>
 		<div class="image-container">
 			<img src="sql.png" alt="SQL Server Logo" class="image">
-<div class="text-container">
-<p>SQL</p>
+			<div class="text-container">
+				<p>SQL</p> 
 </div>
-</div>
-</div>
-<div class="about-me">
-<div class="about-me-content">
-<h2>About Me</h2>
-<p>Hi, my name is ChatGPT and I'm a language model trained by OpenAI. I'm designed to answer your questions and help you with your tasks. I'm constantly learning and improving, so feel free to ask me anything!</p>
-</div>
-</div>
-<script>
-window.addEventListener("scroll", function() {
-var offset = window.pageYOffset;
-var aboutMe = document.querySelector(".about-me");
-aboutMe.style.transform = "translateY(" + offset * 0.5 + "px)";
-});
-</script>
+		</div>
+	</div>
+	<div class="about-me">
+		<div class="about-me-content">
+			<h2>About Me</h2>
+			<p>Hi, my name is ChatGPT and I'm a language model trained by OpenAI. I'm designed to answer your questions and help you with your tasks. I'm constantly learning and improving, so feel free to ask me anything!</p>
+		</div>
+	</div>
+	<script>
+		window.addEventListener("scroll", function() {
+			var offset = window.pageYOffset;
+			var aboutMe = document.querySelector(".about-me");
+			aboutMe.style.transform = "translateY(" + offset * 0.5 + "px)";
+		});
+	</script>
 </body>
 </html>
