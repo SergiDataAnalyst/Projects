@@ -77,17 +77,13 @@
         <a href="https://sergidataanalyst.github.io/">
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Power BI Portfolio">
         </a>
-        <h2>Power BI</h2>
-        <p>Explore my Power BI portfolio</p>
-        <a href="https://my-powerbi-portfolio.com" class="button">Go to portfolio</a>
+        
       </div>
       <div class="card">
         <a href="https://sergidataanalyst.github.io/portfoliowelcomepage">
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="SQL Portfolio">
         </a>
-        <h2>SQL</h2>
-        <p>Explore my SQL portfolio</p>
-        <a href="https://my-sql-portfolio.com" class="button">Go to portfolio</a>
+        
       </div>
     </div>
   </body>
