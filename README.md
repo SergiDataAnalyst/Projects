@@ -3,82 +3,93 @@
 <p style="text-align:center; font-size: 24px; font-family: Segoe Bold, Arial, sans-serif;">PROJECTS</p>
 
 
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My Website</title>
-    <style>
-      /* Set background color to white */
-      body {
-        background-color: #ffffff;
-      }
-      
-      /* Center the images */
-      .image-container {
-        display: flex;
-        justify-content: center;
-      }
-
-      /* Add margin between images */
-      .image-container a:not(:last-child) {
-        margin-right: 20px;
-      }
-
-      /* Add padding between images */
-      .image-container img {
-        padding: 10px;
-      }
-      
-      /* Set cursor to pointer when hovering over images and add transition effect */
-      .image-container a:hover img {
-        cursor: pointer;
-        opacity: 0.7; /* Add opacity effect */
-        transition: all 0.3s ease-in-out;
-        transform: translateY(-5px) scale(1.05);
-        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-      }
-      
-      /* Make images responsive */
-      .image-container img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 20px; /* Round the corners */
-      }
-      
-      /* Add visual appeal to images */
-      .image-container img {
-        border: 3px solid #f5f5f5;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-      }
-
-      /* Style the text elements */
-      .image-container p {
-        margin-top: 20px;
-        font-family: Segoe Bold, Arial, sans-serif;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Display images aligned horizontally on center -->
-    <div class="image-container">
-      <div>
-        <a href="https://sergidataanalyst.github.io/" target="_blank">
-          <img src="python.png" alt="Python" width="150">
-        </a>
-        <p>Python</p>
-      </div>
-      <div>
-        <a href="https://sergidataanalyst.github.io/PowerBI/" target="_blank">
-          <img src="powerbi.png" alt="Power BI" width="150">
-        </a>
-        <p>Power BI</p>
-      </div>
-      <div>
-        <a href="https://count.co/report/mx3pf4bIZcu?frame=nX1StErbcFe" target="_blank">
-          <img src="sql.png" alt="SQL Server" width="150">
-        </a>
-        <p>SQL</p>
-      </div>
-    </div>
-  </body>
+<head>
+	<title>My Images and About Me Page</title>
+	<style>
+		body {
+			background-color: #f9f9f9;
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.image {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			margin: 20px;
+			transition: all 0.3s ease-in-out;
+		}
+		.image:hover {
+			transform: scale(1.1);
+		}
+		.about-me {
+			background-image: url('https://images.unsplash.com/photo-1633079296214-d8d7e51c0894');
+			background-size: cover;
+			background-position: center;
+			height: 500px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			font-size: 24px;
+			text-align: center;
+			position: relative;
+		}
+		.about-me h2 {
+			margin-top: 0;
+			font-size: 36px;
+			font-weight: bold;
+			text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+		}
+		.about-me p {
+			margin: 20px;
+			text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+		}
+		.about-me::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0,0,0,0.5);
+			z-index: -1;
+			transform: translateZ(-1px) scale(2);
+		}
+	</style>
+</head>
+<body>
+	<h1>My Images</h1>
+	<div class="container">
+		<img src="python.png" alt="Python Logo" class="image">
+		<img src="powerbi.png" alt="Power BI Logo" class="image">
+		<img src="sql.png" alt="SQL Server Logo" class="image">
+	</div>
+	<div class="about-me">
+		<div class="about-me-content">
+			<h2>About Me</h2>
+			<p>Hi, my name is ChatGPT and I'm a language model trained by OpenAI. I'm designed to answer your questions and help you with your tasks. I'm constantly learning and improving, so feel free to ask me anything!</p>
+		</div>
+	</div>
+	<script>
+		window.addEventListener("scroll", function() {
+			var offset = window.pageYOffset;
+			var aboutMe = document.querySelector(".about-me");
+			aboutMe.style.backgroundPositionY = offset * 0.7 + "px";
+		});
+	</script>
+</body>
 </html>
+
