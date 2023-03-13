@@ -65,3 +65,9 @@
 </html>
 
 <p id="p3">Change is the end result of all true learning.</p>
+<p id="p2" style="position: absolute; top: 100px; left: 50px;">Change is the end result of all true learning.</p>
+
+<p id="p4" style="position: absolute; top: 50px; left: 100px;">Change is the end result of all true learning.</p>
+<p id="p5" style="position: absolute; top: 200px; left: 300px;">Change is the end result of all true learning.</p>
+
+
