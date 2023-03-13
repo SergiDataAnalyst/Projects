@@ -47,21 +47,26 @@
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
       }
       
-      /* Style the "Changed" text */
-      .changed-text {
+      /* Add text below first image */
+      #changed {
+        margin-top: 20px;
         text-align: center;
-        margin-top: 10px;
+      }
+      
+      /* Add margin between images and text */
+      .image-container img:not(:first-child) {
+        margin-left: 20px;
       }
     </style>
   </head>
   <body>
     <!-- Display images aligned horizontally on center -->
     <div class="image-container">
-      <a href="https://www.python.org/" target="_blank">
-        <img src="python.png" alt="Python" width="150">
-      </a>
-      <div class="changed-text">
-        <p>Changed</p>
+      <div>
+        <a href="https://www.python.org/" target="_blank">
+          <img src="python.png" alt="Python" width="150">
+        </a>
+        <p id="changed">Changed</p>
       </div>
       <a href="https://powerbi.microsoft.com/" target="_blank">
         <img src="powerbi.png" alt="Power BI" width="150">
@@ -72,5 +77,6 @@
     </div>
   </body>
 </html>
+
 
 
