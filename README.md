@@ -21,10 +21,11 @@
         padding: 10px;
       }
       
-      /* Set cursor to pointer when hovering over images */
+      /* Set cursor to pointer when hovering over images and add transition effect */
       .image-container img:hover {
         cursor: pointer;
         opacity: 0.7; /* Add opacity effect */
+        transition: all 0.3s ease-in-out;
       }
       
       /* Make images responsive */
@@ -32,7 +33,6 @@
         max-width: 100%;
         height: auto;
         border-radius: 20px; /* Round the corners */
-        transition: all 0.2s ease-in-out; /* Add transition effect */
       }
       
       /* Add visual appeal to images */
