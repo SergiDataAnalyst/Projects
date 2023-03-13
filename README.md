@@ -54,9 +54,11 @@
       <a href="https://www.python.org/" target="_blank">
         <img src="python.png" alt="Python" width="150">
       </a>
+      <p>Change.</p>
       <a href="https://powerbi.microsoft.com/" target="_blank">
         <img src="powerbi.png" alt="Power BI" width="150">
       </a>
+      <p>Change.</p>
       <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
         <img src="sql.png" alt="SQL Server" width="150">
       </a>
