@@ -51,7 +51,8 @@
       .image-container p {
         margin-top: 20px;
         font-family: Segoe Bold, Arial, sans-serif;
-        text-align: center;
+        text-align: center
+        font-size: 20px;
       }
     </style>
   </head>
@@ -59,7 +60,7 @@
     <!-- Display images aligned horizontally on center -->
     <div class="image-container">
       <div>
-        <a href="https://www.python.org/" target="_blank">
+        <a href="https://sergidataanalyst.github.io/" target="_blank">
           <img src="python.png" alt="Python" width="150">
         </a>
         <p>Python</p>
