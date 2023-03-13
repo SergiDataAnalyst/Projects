@@ -1,9 +1,9 @@
 
-##           Projects
+
 <p style="text-align:center; font-size: 24px; font-family: Segoe Bold, Arial, sans-serif;">PROJECTS</p>
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>MY WORK</title>
@@ -16,7 +16,7 @@
 		}
 		h1 {
 			text-align: center;
-			margin-top: 50px;
+			margin-top: 150px;
 		}
 		.container {
 			display: flex;
@@ -46,10 +46,10 @@
 			font-size: 24px;
 			text-align: center;
 			position: relative;
-			margin-top: 50px;
+			margin-top: 290px;
 		}
 		.about-me h2 {
-			margin-top: 0;
+			margin-top: -350px;
 			font-size: 36px;
 			font-weight: bold;
 			text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
