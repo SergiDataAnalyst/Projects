@@ -1,6 +1,5 @@
 # Projects
 
-<!DOCTYPE html>
 <html>
   <head>
     <title>My Website</title>
@@ -17,7 +16,7 @@
       }
 
       /* Add margin between images */
-      .image-container img:not(:last-child) {
+      .image-container a:not(:last-child) {
         margin-right: 20px;
       }
 
@@ -27,7 +26,7 @@
       }
       
       /* Set cursor to pointer when hovering over images and add transition effect */
-      .image-container img:hover {
+      .image-container a:hover img {
         cursor: pointer;
         opacity: 0.7; /* Add opacity effect */
         transition: all 0.3s ease-in-out;
@@ -61,5 +60,4 @@
       </a>
     </div>
   </body>
-</html> 
-
+</html>
