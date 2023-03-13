@@ -70,7 +70,7 @@
       <h1>My Portfolios</h1>
       <div class="card">
         <a href="https://my-python-portfolio.com">
-          <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Python Portfolio">
+          <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="Python Portfolio">
         </a>
       </div>
       <div class="card">
