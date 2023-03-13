@@ -32,15 +32,6 @@
         		padding: 10px;
       		}
 		
-		/* Set cursor to pointer when hovering over images and add transition effect */
-      		.image-container a:hover img {
-        		cursor: pointer;
-        		opacity: 0.7; /* Add opacity effect */
-        		transition: all 0.3s ease-in-out;
-        		transform: translateY(-5px) scale(1.05);
-        		box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-      		}
-		
 		.image {
 			width: 150px; /* changed width from 200px to 150px */
 			height: 150px; /* changed height from 200px to 150px */
