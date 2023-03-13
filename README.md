@@ -59,6 +59,26 @@
       }
     </style>
   </head>
+  <style>
+  body {
+    background-image: radial-gradient(circle, #ff5858, #d70b91, #6c1cbc, #0077c2, #00b2a9);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
+
   <body>
     <!-- Display images aligned horizontally on center -->
     <div class="image-container">
