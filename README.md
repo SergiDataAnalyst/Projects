@@ -72,9 +72,6 @@
         <a href="https://my-python-portfolio.com">
           <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Python Portfolio">
         </a>
-        <h2>Python</h2>
-        <p>Explore my Python portfolio</p>
-        <a href="https://my-python-portfolio.com" class="button">Go to portfolio</a>
       </div>
       <div class="card">
         <a href="https://sergidataanalyst.github.io/">
