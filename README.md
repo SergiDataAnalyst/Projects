@@ -18,25 +18,27 @@
       
       /* Add padding between images */
       .image-container img {
-        padding: 20px;
+        padding: 10px;
       }
       
       /* Set cursor to pointer when hovering over images */
       .image-container img:hover {
         cursor: pointer;
+        opacity: 0.7; /* Add opacity effect */
       }
       
       /* Make images responsive */
       .image-container img {
         max-width: 100%;
         height: auto;
+        border-radius: 20px; /* Round the corners */
+        transition: all 0.2s ease-in-out; /* Add transition effect */
       }
       
       /* Add visual appeal to images */
       .image-container img {
-        border: 1px solid #cccccc;
-        border-radius: 5px;
-        box-shadow: 2px 2px 2px #cccccc;
+        border: 3px solid #f5f5f5;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
       }
     </style>
   </head>
@@ -44,15 +46,14 @@
     <!-- Display images aligned horizontally on center -->
     <div class="image-container">
       <a href="https://www.python.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="Python">
+        <img src="python.png" alt="Python" width="150">
       </a>
       <a href="https://powerbi.microsoft.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="Power BI">
+        <img src="powerbi.png" alt="Power BI" width="150">
       </a>
       <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-        <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="SQL Server">
+        <img src="sql.png" alt="SQL Server" width="150">
       </a>
     </div>
   </body>
 </html>
-
