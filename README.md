@@ -1,92 +1,45 @@
 # Projects
 
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Portfolios</title>
-    <style>
-      body {
-        background-color: #f8f8f8;
-        font-family: Arial, sans-serif;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      h1 {
-        font-size: 48px;
-        text-align: center;
-        margin-bottom: 50px;
-        color: #303030;
-      }
-      .card {
-        width: 200px;
-        margin: 20px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        overflow: hidden;
-        transition: all 0.3s ease-in-out;
-      }
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-      }
-      .card img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-      }
-      .card h2 {
-        font-size: 24px;
-        text-align: center;
-        margin: 20px;
-        color: #303030;
-      }
-      .button {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-        background-color: #4CAF50;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: all 0.3s ease-in-out;
-      }
-      .button:hover {
-        background-color: #3e8e41;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>My Portfolios</h1>
-      <div class="card">
-        <a href="https://my-python-portfolio.com">
-          <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/python.png" alt="Python Portfolio">
-        </a>
-      </div>
-      <div class="card">
-        <a href="https://sergidataanalyst.github.io/">
-          <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="Power BI Portfolio">
-        </a>
-        
-      </div>
-      <div class="card">
-        <a href="https://sergidataanalyst.github.io/portfoliowelcomepage">
-          <img src="https://raw.githubusercontent.com/SergiDataAnalyst/Prison-Escape-Data-Analysis-/main/reddit.png" alt="SQL Portfolio">
-        </a>
-        
-      </div>
-    </div>
-  </body>
-  
-
-
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			background-color: white;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		
+		.image {
+			width: 200px;
+			height: 200px;
+			margin: 0 20px;
+			border-radius: 10px;
+			cursor: pointer;
+			background-image: url("image1.jpg");
+			background-size: cover;
+			background-position: center;
+			transition: transform 0.2s ease-in-out;
+		}
+		
+		.image:hover {
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<a href="https://www.example.com"><div class="image"></div></a>
+		<a href="https://www.example.com"><div class="image"></div></a>
+		<a href="https://www.example.com"><div class="image"></div></a>
+	</div>
+</body>
+</html>
