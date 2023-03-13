@@ -46,6 +46,12 @@
         border: 3px solid #f5f5f5;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
       }
+      
+      /* Style the "Changed" text */
+      .changed-text {
+        text-align: center;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body>
@@ -54,17 +60,19 @@
       <a href="https://www.python.org/" target="_blank">
         <img src="python.png" alt="Python" width="150">
       </a>
-      <p>Change.</p>
+      <div class="changed-text">
+        <p>Changed</p>
+      </div>
       <a href="https://powerbi.microsoft.com/" target="_blank">
         <img src="powerbi.png" alt="Power BI" width="150">
       </a>
-      <p>Change.</p>
       <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
         <img src="sql.png" alt="SQL Server" width="150">
       </a>
     </div>
   </body>
 </html>
+
 
 <p id="p3">Change is the end result of all true learning.</p>
 <p id="p2" style="position: absolute; top: 100px; left: 50px;">Change is the end result of all true learning.</p>
