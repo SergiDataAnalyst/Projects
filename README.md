@@ -38,7 +38,7 @@
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
       }
       .card img {
-        width: 100%;
+        width: 200px;
         height: 200px;
         object-fit: cover;
       }
