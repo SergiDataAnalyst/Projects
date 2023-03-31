@@ -60,7 +60,7 @@
 			margin-top: 370px;
 		}
 		.about-me h2 {
-			margin-top: -120px;
+			margin-top: -400px;
 			font-size: 36px;
 			font-weight: bold;
 			text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
@@ -121,13 +121,13 @@ In short, I'm a mad scientist with a passion for AI and Data Analytics a love fo
 </p>
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="315" height="560" controls>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+  <video width="315" height="560" controls>
+    <source src="videon.mp4" type="video/mp4">
+  </video>
+  <video width="315" height="560" controls>
     <source src="video1.mp4" type="video/mp4">
-  </video>
-  <video width="315" height="560" controls>
-    <source src="video2.mp4" type="video/mp4">
-  </video>
-  <video width="315" height="560" controls>
-    <source src="video3.mp4" type="video/mp4">
   </video>
 </div>
 
