@@ -117,7 +117,7 @@ When I'm not busy programming or learning German, you can find me on my paraglid
 I've worked with small businesses before, analyzing their data and building custom business analysis reports to help them make sense of their operations. I love being able to take complicated data and turning it into something that everyone can understand. Think of me as the data whisperer, taming the wildest spreadsheets with just a few clicks.
 </p>
 <p>
-In short, I'm a mad scientist with a passion for AI and Data Analytics a love for the great outdoors. If you're looking for someone to help you make sense of your data, look no further. I'm your guy!
+In short, I'm a mad scientist with a passion for AI and Data Analytics and a love for nature and the outdoors. If you're looking for someone to help you make sense of your data, look no further.
 </p>
 <div style="display:flex; justify-content:center; gap:20px;">
   <video width="315" height="560" controls>
