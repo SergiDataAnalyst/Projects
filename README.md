@@ -119,6 +119,12 @@ I've worked with small businesses before, analyzing their data and building cust
 <p>
 In short, I'm a mad scientist with a passion for AI and Data Analytics a love for the great outdoors. If you're looking for someone to help you make sense of your data, look no further. I'm your guy!
 </p>
+<div class="instagram-reels">
+          <iframe width="300" height="400" src="https://www.instagram.com/reel/CjYE6H9D5jg/" frameborder="0"></iframe>
+          <iframe width="300" height="400" src="https://www.instagram.com/reel/CjYE6H9D5jg/" frameborder="0"></iframe>
+          <iframe width="300" height="400" src="https://www.instagram.com/reel/CjYE6H9D5jg/" frameborder="0"></iframe>
+        </div>
+
 			
 		</div>
 	</div>
