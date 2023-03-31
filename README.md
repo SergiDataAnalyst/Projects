@@ -49,7 +49,7 @@
 		}
 		.about-me {
 			background-color: #f7f7f7;
-			height: 500px;
+			height: 600px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
