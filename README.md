@@ -60,7 +60,7 @@
 			margin-top: 370px;
 		}
 		.about-me h2 {
-			margin-top: -200px;
+			margin-top: -120px;
 			font-size: 36px;
 			font-weight: bold;
 			text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
