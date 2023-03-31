@@ -83,6 +83,28 @@
 	</style>
 </head>
 <body>
+	<script>
+  function playVideo(filename, container) {
+    // Create the video element and set its attributes
+    var video = document.createElement('video');
+    video.src = filename;
+    video.autoplay = true;
+    video.controls = true;
+    video.width = 150;
+    video.height = 150;
+    video.style.borderRadius = '20px';
+    video.style.boxShadow = '1px 1px 10px rgba(0, 0, 0, 0.3)';
+    video.style.transition = 'all 0.3s ease-in-out';
+    video.style.cursor = 'pointer';
+    video.style.transform = 'scale(1.1)';
+    video.style.boxShadow = '1px 1px 20px rgba(0, 0, 0, 0.5)';
+
+    // Replace the image element with the video element
+    var image = container.querySelector('.image');
+    container.replaceChild(video, image);
+  }
+</script>
+
 	<h1>My Work 🚀</h1>
 	<div class="container">
 		<div class="image-container">
@@ -120,6 +142,7 @@ I've worked with small businesses before, analyzing their data and building cust
 In short, I'm a mad scientist with a passion for AI and Data Analytics and a love for nature and the outdoors. If you're looking for someone to help you make sense of your data, look no further.
 </p>
 <div style="display:flex; justify-content:center; gap:20px;">
+	<div class="image-container" onmouseover="playVideo('video1.mp4', this)">
   <video width="315" height="560" controls>
     <source src="video.mp4" type="video/mp4">
   </video>
