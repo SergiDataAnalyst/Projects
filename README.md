@@ -80,7 +80,7 @@
 			z-index: -1;
 			transform: translateZ(-1px) scale(2);
 		}
-	</style>
+	</style> 
 </head>
 <body>
 	<h1>My Work 🚀</h1>
