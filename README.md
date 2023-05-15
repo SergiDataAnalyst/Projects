@@ -1,7 +1,7 @@
 
 
 <html>
-<head>
+<head> 
 	<title>MY WORK 🚀</title>
 	<style>
 		body {
