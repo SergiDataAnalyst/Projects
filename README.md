@@ -5,6 +5,7 @@
 	<title>MY WORK 🚀</title>
 	<style>
 		body {
+			
 			background-color: #f7f7f7;
 			margin: 0;
 			padding: 0;
