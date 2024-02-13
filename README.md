@@ -99,7 +99,7 @@
 			</div>
 		</div>
 		<div class="image-container">
-			<img src="sql.png" alt="SQL Server Logo" class="image" onclick="window.location.href='https://count.co/report/mx3pf4bIZcu?frame=nX1StErbcFe'">
+			<img src="sql.png" alt="SQL Server Logo" class="image" onclick="window.location.href='https://github.com/SergiDataAnalyst/SQL_portfolio'">
 			<div class="text">
 				<p>SQL</p> 
 </div>
